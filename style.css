@@ -1,0 +1,131 @@
+body {
+  
+  font-family: 'Open Sans', sans-serif; /* Legt die Schriftart fest */
+  background-color: #073b50; /* Legt die Hintergrundfarbe fest */
+}
+
+header {
+  background-image: url('bilder/header-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Legt die Schriftart fest */
+  color: #f8f8f8;
+}
+header h1:hover {
+  cursor: wait;
+}
+
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Zentriert die Navigationsbuttons */
+}
+
+header nav ul li {
+  list-style: none;
+  margin-top: 10px;
+  list-style: none;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em; /* Vergrößert die Schriftgröße der Buttons */
+  padding: 10px 50px; /* Erhöht die Button-Höhe und -Breite */
+  border-radius: 5px; /* Fügt abgerundete Ecken hinzu */
+  background-color: rgba(0, 0, 0, 0.2); /* Fügt eine halbtransparente Hintergrundfarbe hinzu */
+  transition: background-color 0.3s; /* Fügt eine Übergangsanimation hinzu */
+}
+header nav ul li a:hover {
+  background-color: rgba(102, 102, 102, 0.4); /* Ändert die Hintergrundfarbe beim Überfahren mit der Maus */
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color:grey; /* Legt die Hintergrundfarbe des Hauptinhaltbereichs fest */
+  box-shadow: 0 0 10rgb(10, 23, 146)gba(0, 0, 0, 0.1); /* Fügt einen Schatten hinzu */
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center; /* Zentriert den Titel */
+}
+
+main p {
+  line-height: 1.5;
+  font-size: 1.2em;
+  text-align: justify; /* Justiert den Textblock */
+}
+div img{
+  margin: 0 auto;
+  display: block;
+}
+.btn{
+	text-decoration: none;
+	box-shadow: 3px 5px 25px 0px #1634ab;
+	background:linear-gradient(to bottom, #7affb8 5%, #003a9e 100%);
+	background-color:#7affb8;
+	border-radius:23px;
+	border:1px solid #34adc2;
+	display:inline-block;
+	cursor:pointer;
+	color:#e0e0e0;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 31px #5acc54;
+  }
+  .btn:hover{
+	background:linear-gradient(to bottom, #003a9e 5%, #7affb8 100%);
+	background-color:#003a9e;
+  }
+  details {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Passt das Aussehen der Überschrift an */
+  summary {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  summary:hover {
+    cursor: pointer;
+  }
+  
+  /* Passt das Aussehen des ausgeklappten Inhalts an */
+  details p {
+    font-size: 1.1em;
+    color: #444;
+  }
+
+
+
+
+
+
